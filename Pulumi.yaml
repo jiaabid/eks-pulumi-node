@@ -1,0 +1,3 @@
+name: "node-pulumi"
+description: "Nodejs project"
+runtime: "nodejs"

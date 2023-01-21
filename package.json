@@ -1,0 +1,25 @@
+{
+  "name": "vpc-creator",
+  "version": "1.0.0",
+  "description": "By using pulumi sdk it creates vpcs on aws through UI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index",
+    "start": "cd ui & npm run build & cd .. & node index.js "
+  },
+  "keywords": [
+    "nodejs",
+    "aws",
+    "pulumi",
+    "vuejs"
+  ],
+  "author": "wajiha abid",
+  "license": "ISC",
+  "dependencies": {
+    "@pulumi/aws": "^5.27.0",
+    "@pulumi/pulumi": "^3.52.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
